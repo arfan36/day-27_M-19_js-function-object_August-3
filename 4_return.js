@@ -16,3 +16,4 @@ function bringSingra(money) {
 var myTaka = 150;
 var singras = bringSingra(myTaka);
 console.log(singras);
+// check
