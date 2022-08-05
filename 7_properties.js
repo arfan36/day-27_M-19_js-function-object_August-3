@@ -11,8 +11,8 @@ var penCount = shoppingCart.pen;
 // when you know the specific property name, use dot notation to get the value
 var penCount2 = shoppingCart['pen'];
 
-var propertiesName = 'mouse';
-var propertiesValue = shoppingCart[propertiesName];
+var propertyName = 'mouse';
+var propertiesValue = shoppingCart[propertyName];
 // console.log(propertiesName, propertiesValue);
 
 var properties = Object.keys(shoppingCart);
@@ -26,5 +26,5 @@ shoppingCart.mouse = 15;
 console.log(shoppingCart);
 shoppingCart['mouse'] = 29;
 console.log(shoppingCart);
-shoppingCart[propertiesName] = 89;
+shoppingCart[propertyName] = 89;
 console.log(shoppingCart);
